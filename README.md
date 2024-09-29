@@ -10,7 +10,7 @@
 The SOAP server contains several key services for the WiiU and 3DS, including NUS (NetUpdateSOAP, aka Nintendo Update Server) and ECS which serves title tickets and other data for the eShop
 
 # How to use
-This repo does not come with any titles or tickets by default. To serve titles and tickets, create a `titles` folder in the root of the repo. In the `titles` folder create 2 sub-folders, `wup` and `ctr`, for the WiiU and 3DS respectively. Inside each of these folders create 3 more sub-folders, `aoc`, `patch` and `title`, for DLC, updates, and base titles respectively. Create a folder named the title ID for the title you wish to serve in it's correct folder, and place the `title.tmd`, `title.tik` and encrypted contents inside.
+This repo does not come with any titles or tickets by default. To serve titles and tickets, create a `titles` folder in the root of the repo. In the `titles` folder create 2 sub-folders, `wup` and `ctr`, for the WiiU and 3DS respectively. Inside each of these folders create 3 more sub-folders, `aoc`, `patch` and `title`, for DLC, updates, and base titles respectively. Create a folder named the title ID for the title you wish to serve in its correct folder, and place the `title.tmd`, `title.tik` and encrypted contents inside.
 
 Your directory structure should look something like:
 
